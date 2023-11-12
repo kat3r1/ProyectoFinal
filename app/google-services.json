@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "466028857443",
+    "project_id": "proyectofinalchaski",
+    "storage_bucket": "proyectofinalchaski.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466028857443:android:2ba228c57081e3cbc4d056",
+        "android_client_info": {
+          "package_name": "dev.desarrolloapp.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx43Bs3u9K2PGNRw_40apGETl7uRoFrYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

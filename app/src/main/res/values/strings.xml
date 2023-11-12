@@ -9,4 +9,6 @@
     <string name="mensajereg">Al registrarse, acepta nuestras condiciones generales y nuestra política de publicidad</string>
     <string name="msjeyatienes">¿Ya tienes una cuenta?</string>
     <string name="link_ingresa">Ingresa</string>
+    <string name="titulo_principal">Encuentra tu comida favorita</string>
+    <string name="quepodemosofrecer">¿Qué podemos ofrecerte?</string>
 </resources>
