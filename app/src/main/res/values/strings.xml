@@ -3,12 +3,14 @@
     <string name="valbtn_ingresar">Ingresar</string>
     <string name="valbtn_registrarse">Registrarse</string>
     <string name="valtitulo_registra">Registrarse</string>
-    <string name="Correo">Correo Electrónico</string>
-    <string name="Contraseña">Contraseña</string>
+    <string name="val_correo">Correo Electrónico</string>
+    <string name="val_contraseña">Contraseña</string>
     <string name="valbtn_registrar">Registrar</string>
-    <string name="mensajereg">Al registrarse, acepta nuestras condiciones generales y nuestra política de publicidad</string>
     <string name="msjeyatienes">¿Ya tienes una cuenta?</string>
     <string name="link_ingresa">Ingresa</string>
     <string name="titulo_principal">Encuentra tu comida favorita</string>
     <string name="quepodemosofrecer">¿Qué podemos ofrecerte?</string>
+    <string name="val_nombre">Nombres</string>
+    <string name="val_apellidos">Apellidos</string>
+    <string name="val_anionacimiento">Año nacimiento</string>
 </resources>

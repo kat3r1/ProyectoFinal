@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EA2242"
+    android:id="@+id/activity_main_layout"
     tools:context=".MainActivity">
+
 
     <ImageView
         android:id="@+id/imageView3"
@@ -26,4 +28,5 @@
         app:srcCompat="@drawable/amarillonuevo"
         tools:layout_editor_absoluteX="-7dp"
         tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "466028857443",
-    "project_id": "proyectofinalchaski",
-    "storage_bucket": "proyectofinalchaski.appspot.com"
+    "project_number": "517871126143",
+    "project_id": "chaskifood2023",
+    "storage_bucket": "chaskifood2023.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:466028857443:android:2ba228c57081e3cbc4d056",
+        "mobilesdk_app_id": "1:517871126143:android:ee7bc6e8947d7383eda14a",
         "android_client_info": {
-          "package_name": "dev.desarrolloapp.firebase"
+          "package_name": "com.example.proyectofinal"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCx43Bs3u9K2PGNRw_40apGETl7uRoFrYs"
+          "current_key": "AIzaSyB87VHLpvcq_76Pc0wl47K9zf7WuSfCHaw"
         }
       ],
       "services": {
