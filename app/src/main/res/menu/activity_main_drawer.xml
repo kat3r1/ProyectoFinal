@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navPrincipal"
+            android:icon="@drawable/fondoblancoimagenroja"
+            android:title="@string/menu_principal" />
+        <item
+            android:id="@+id/navCalificacion"
+            android:icon="@drawable/califica"
+            android:title="@string/menu_calificacion" />
+        <item
+            android:id="@+id/navMetodo"
+            android:icon="@drawable/pago"
+            android:title="@string/menu_metodo" />
+        <item
+            android:id="@+id/navSeguimiento"
+            android:icon="@drawable/seguimiento"
+            android:title="@string/menu_seguimiento" />
+        <item
+            android:id="@+id/navSoporte"
+            android:icon="@drawable/soporte"
+            android:title="@string/menu_soporte" />
+    </group>
+</menu>
