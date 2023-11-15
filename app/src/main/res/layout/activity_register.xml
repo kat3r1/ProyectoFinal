@@ -2,15 +2,19 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".RegisterActivity"
+    tools:ignore="DuplicateIds">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="246dp"
-        android:layout_height="177dp"
+        android:layout_height="0dp"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="175dp"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -30,7 +34,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnRegistrar"
         android:layout_width="375dp"
         android:layout_height="52dp"
         android:layout_marginTop="16dp"
@@ -46,29 +50,34 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="52dp"
         android:text="@string/msjeyatienes"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrar"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="48dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/etIngresa"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="52dp"
         android:layout_marginEnd="72dp"
         android:text="@string/link_ingresa"
-        android:textColor="#EA2242"
+        android:textAppearance="@android:style/TextAppearance.Material"
+        android:clickable="true"
+        android:textColor="@color/redlink"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrar"
+        app:layout_constraintVertical_bias="0.025" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
@@ -80,36 +89,24 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etNombreR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/val_nombre" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout3"
-        android:layout_width="357dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/val_apellidos" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout4"
-        android:layout_width="361dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="362dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="319dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etAnionacimientoR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/val_anionacimiento" />
@@ -125,6 +122,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCorreoR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/val_correo" />
@@ -140,11 +138,29 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout5">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etContraseniaR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/val_contraseña"
             android:inputType="textPassword"
-            app:passwordToggleEnabled="true"/>
+            app:passwordToggleEnabled="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout2">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etApellidoR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/val_apellidos" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
