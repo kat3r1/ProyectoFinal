@@ -34,7 +34,7 @@ class LoginActivity : AppCompatActivity() {
                             .make(findViewById(android.R.id.content),
                                 "Ingreso exitoso",
                                 Snackbar.LENGTH_LONG).show()
-                        startActivity(Intent(this, PrincipalActivity::class.java))
+                        startActivity(Intent(this, NavigationActivity::class.java))
                     }else{
                         Snackbar
                             .make(findViewById(android.R.id.content),

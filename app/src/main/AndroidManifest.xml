@@ -16,6 +16,9 @@
             android:name=".PrincipalActivity"
             android:exported="false" />
         <activity
+            android:name=".NavigationActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
