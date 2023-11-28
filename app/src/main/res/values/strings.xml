@@ -13,7 +13,7 @@
     <string name="val_nombre">Nombres</string>
     <string name="val_apellidos">Apellidos</string>
     <string name="val_anionacimiento">Año nacimiento</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_principal_scrolling">PrincipalScrollingActivity</string>
     <string name="Ordenahora">Ordena ahora</string>
@@ -32,4 +32,7 @@
     <string name="menu_seguimiento">Seguimiento de pedido</string>
     <string name="menu_calificacion">Calificación y comentarios</string>
     <string name="menu_soporte">Soporte al Cliente</string>
+
+    <string name="tiempo">Tiempo</string>
+
 </resources>

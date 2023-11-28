@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.proyectofinal.fragments.PrincipalFragment
 
 class ConfirmacionActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +15,7 @@ class ConfirmacionActivity : AppCompatActivity() {
 
         btnOrdena.setOnClickListener {
             // Intent para dirigirte a PrincipalActivity
-            val intent = Intent(this, PrincipalActivity::class.java)
+            val intent = Intent(this, PrincipalFragment::class.java)
             startActivity(intent)
         }
 
